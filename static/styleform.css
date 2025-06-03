@@ -21,23 +21,24 @@ input{
     margin-bottom: 10px;
 }
 input[type="text"],
-input[type="numder"],
+input[type="number"],
 input[type="email"],
 input[type="password"],
-input[type="data"]{
+input[type="date"]{
 width: 95%;
 padding: 10px;
 border: 1px solid #ccc;
 border-radius: 5px;
     }
-    input[type="color"],{
-        width:: 95%
+    
+    input[type="color"] {
+        width: 95%;
         border: 1px solid #ccc;
-        border-radius: 5px
+        border-radius: 5px;
     }
   input[type="submit"]{
-    width:100%
+    width:100%;
     border:none;
     border-radius:5px;
-    backgraund-color: #007bff 
+    background-color: #007bff ;
   }
